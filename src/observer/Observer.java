@@ -14,8 +14,8 @@ public class Observer {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         HeadQuater obj = new HeadQuater();
-        Senior obj1 = new Senior();
-        Marketing obj2 = new Marketing();
+        Registrant1 obj1 = new Registrant1();
+        Registrant2 obj2 = new Registrant2();
         
         obj.register(obj1);
         obj.register(obj2);

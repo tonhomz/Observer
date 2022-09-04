@@ -8,7 +8,7 @@ package observer;
  *
  * @author sarun
  */
-public class Marketing implements MyObserver {
+public class Registrant2 implements MyObserver {
     @Override
     public void update(Source o) {
         System.out.println("Live Result : " +((HeadQuater)o).getSomeData());
